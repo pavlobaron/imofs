@@ -13,8 +13,7 @@ for **imofs**, it's just a file enveloped in a message, stored in a
 folder (mailbox).
 
 So what **imofs** does is to save your files within a draft email on
-the IMAP server. Subfolders can be easily created within the drafts
-folder, so we have a simple online file system.
+the IMAP server. Subfolders (mailboxes) can be easily created, so we have a simple online file system.
 
 Whatever device you have connected to the IMAP
 server, it can see and even modifiy your folders (mailboxes). So you have a poor
