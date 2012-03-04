@@ -25,7 +25,7 @@ def main():
 
 def parsearg():
     parser = argparse.ArgumentParser(description='imofs - IMAP Based Online File Storage')
-    sub = parser.add_subparsers(title='commands')
+    sub = parser.add_subparsers(title='commands', help='Remote path format is user:password@host:port')
 
     cp = sub.add_parser('cp', help="copy a file in whatever direction")
     cp.add_argument('source', metavar='SOURCE', type=str, help='Source file path')
